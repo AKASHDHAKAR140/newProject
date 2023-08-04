@@ -1,0 +1,19 @@
+.box{
+     width:100%; 
+     height:70rem; 
+     border: 1px solid black;
+    
+    background-image: url("digital-agnito-banner.jpg");
+    background-size:cover; 
+     background-repeat: no-repeat; 
+    background-position: center;
+     
+    /* border: 1px solid black; */
+}
+.head3{
+    color :white;
+    margin-left: 500px;
+    
+
+}
+
