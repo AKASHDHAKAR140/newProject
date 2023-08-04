@@ -2,6 +2,8 @@ import React from 'react'
 import Colom8 from '../Component/Colom/Colom8'
 import "../Component/All.css"
 import Swiper1 from '../Component/Silde/Swiper'
+import Card5 from '../Component/Cards/Card5'
+import Card6 from '../Component/Cards/Card6'
 
 function Cricket() {
   return (
@@ -11,7 +13,7 @@ function Cricket() {
     <div className='box-inner10'></div>
     <div className='box-inner11'></div>
     <div className='box-inner12'>
-    <h1 className='head1' style={{color:"black"}}>Fantasy Football App Development Expertise</h1>
+    <h1 className='head1' style={{color:"black"}}>Fantasy Cricket App Development Expertise</h1>
      <div className='d-flex'>
     <div className='box-inner13'>
     <img src =""/>
@@ -43,7 +45,8 @@ function Cricket() {
     </div>
     </div>
     </div>
-    
+     <Card5/>
+     <Card6/>
     </div>
   )
 }
