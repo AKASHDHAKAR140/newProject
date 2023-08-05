@@ -29,7 +29,7 @@ function Swiper1() {
     <img src ="https://agnitotechnologies.com/wp-content/uploads/2020/07/artboard-2-200x150.png"/></SwiperSlide>
     <SwiperSlide><img src ="https://agnitotechnologies.com/wp-content/uploads/2020/07/artboard-7-200x150.png"/></SwiperSlide>
     <SwiperSlide>
-    <img src ="https://agnitotechnologies.com/wp-content/uploads/2020/07/artboard-4-200x150.png"/></SwiperSlide>
+    <img  src ="https://agnitotechnologies.com/wp-content/uploads/2020/07/artboard-4-200x150.png"/></SwiperSlide>
     
     <SwiperSlide><img src ="https://agnitotechnologies.com/wp-content/uploads/2020/07/artboard-7-200x150.png"/></SwiperSlide>
     <SwiperSlide><img src ="https://agnitotechnologies.com/wp-content/uploads/2020/07/artboard-7-200x150.png"/></SwiperSlide>
