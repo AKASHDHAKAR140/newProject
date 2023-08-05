@@ -241,6 +241,7 @@ margin-left: -90px;
 .img-slider{
     margin-left: 240px;
     border-radius: 50%;
+    
     justify-content: center;
 }
 .footer-1{
@@ -249,7 +250,7 @@ margin-left: -90px;
     background-color: black;
     border: 1 px solid white;
 }
-.slider-2{
+.slider-inner{
     margin-bottom: 150px;
     height: 400px;
     width: 50%;
@@ -480,6 +481,12 @@ font-size:30px;
     background-color:transparent;
     background-image: radial-gradient(at center center, #2A2727 12%, #3694D1 69%);
 }
+.box-inner17{
+    height: 200px;
+    width:100%;
+    background-color:transparent;
+    background-image: radial-gradient(at center center, #2A2727 12%, #3694D1 69%);
+}
 .box-inner11{
     height: 150px;
     width:100%;
@@ -561,5 +568,56 @@ font-size:30px;
     box-shadow: 0px 0px 6px;
     border:2px solid white;
 }
-
+.card-m12{
+    margin-top: 50px;
+    margin-left: 250px;
+    height: 600px;
+    width:20%;
+    
+    border:2px solid black;
+}
+.card-m13{
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 600px;
+    width:20%;
+    
+    border:2px solid black;
+}
+.box-radius{
+    height: 50px;
+    width:10%;
+    padding-top: 10px;
+    margin-left: 45%;
+    border-radius: 10px;
+    background-color:#EE4F76;
+}
+.box-radius1{
+    height: 40px;
+    width:6%;
+    padding-top: 10px;
+    margin-left: 47%;
+    border-radius: 10px;
+    background-color:#007aff;
+}
+.cricket-box{
+    height: 400px;
+    width:100%;
+    border:1px solid black;
+}
+.cricket-img{
+    height:500px;
+    width:100%;
+    background-image: url("https://agnitotechnologies.com/wp-content/uploads/2021/10/footballbg.jpg");
+    background-size:cover; 
+     background-repeat: no-repeat; 
+    background-position: center;
+    
+   
+}
+.box-blog{
+    height: 1400px;
+    width: 100%;
+    border: 1px solid black;
+}
 

@@ -12,7 +12,7 @@ function Slide() {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src="//agnitotechnologies.com//wp-content/uploads/2022/11/cryptonew.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption slider-2">
+      <div className="carousel-caption slider-inner">
         <h1 style ={{color:'#e6a80e'}}>ON-DEMAND,SECURE & RISK-FREE <br/>BLOCKCHAIN DEVELOPMENT</h1>
         <p>Some representative placeholder content for the first slide.</p>
       </div>

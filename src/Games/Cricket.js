@@ -4,7 +4,11 @@ import "../Component/All.css"
 import Swiper1 from '../Component/Silde/Swiper'
 import Card5 from '../Component/Cards/Card5'
 import Card6 from '../Component/Cards/Card6'
-
+import Card2 from '../Component/Cards/Card2'
+import Counter from '../Component/Counter'
+import Slider1 from '../Component/Silde/Slider1'
+import Footer from '../Component/Footer'
+import Swiper from '../Component/Silde/Swiper'
 function Cricket() {
   return (
     <div>
@@ -46,8 +50,20 @@ function Cricket() {
     </div>
     </div>
      <Card5/>
-     <Card6/>
-    </div>
+     <Card6/><br/>
+     <div className='box-inner17'>
+     <h2 className='head1'>Want A free Expert Consultancy? Call us Today</h2><br/>
+     <div className='box-radius'><p className='head1'>Request A Quote</p></div><br/>
+     <div className='box-radius1'><p className='head1'>Demo</p></div>
+     </div>
+     <Card2/>
+     <Counter/>
+     <div className='cricket-box'> <Swiper1/></div>
+    
+     <div className='cricket-img'><div style={{height:30,width:550,paddingTop:50,marginLeft:450}}><Slider1/></div></div> 
+    
+    <Footer/>
+     </div>
   )
 }
 
