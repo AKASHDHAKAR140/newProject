@@ -11,6 +11,7 @@ import DiscoveryAgnito from './Pages/DiscoveryAgnito';
 import Videos from './Pages/Videos';
 import StartAproject from './Pages/StartAproject';
 import Cricket from './Games/Cricket';
+import Football from './Games/Football';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
      <Navbar/>
      <Routes>
     <Route path= "/cricket" element={<Cricket/>} />
+    <Route path= "/football" element={<Football/>} />
      <Route path= "/contact" element={<Contact/>}/>
      <Route path= "/blogs" element={<Blogs/>}/>
      <Route path= "/" element={<Portfolio/>}/>

@@ -1,23 +1,21 @@
 import React from 'react'
-import Colom8 from '../Component/Colom/Colom8'
-import "../Component/All.css"
+import Colom9 from '../Component/Colom/Colom9'
 import Swiper1 from '../Component/Silde/Swiper'
+import Slider1 from '../Component/Silde/Slider1'
+import Card7 from '../Component/Cards/Card7'
 import Card5 from '../Component/Cards/Card5'
-import Card6 from '../Component/Cards/Card6'
 import Card2 from '../Component/Cards/Card2'
 import Counter from '../Component/Counter'
-import Slider1 from '../Component/Silde/Slider1'
 import Footer from '../Component/Footer'
-import Swiper from '../Component/Silde/Swiper'
-function Cricket() {
+function Football() {
   return (
     <div>
-    <Colom8/>
+    <Colom9/>
     <div className='box-swiper'><Swiper1/></div>
     <div className='box-inner10'><h1 className="head1" style={{padding:50}}>Have A Softwae idea in your Mind</h1></div>
     <div className='box-inner11'><h4 className='head' style={{padding:20}}>Get In Touch</h4><p className="head">Let's discuss your project and build something Extraordinary</p></div>
     <div className='box-inner12'>
-    <h1 className='head1' style={{color:"black"}}>Fantasy Cricket App Development Expertise</h1>
+    <h1 className='head1' style={{color:"black"}}>Fantasy Football App Development Expertise</h1>
      <div className='d-flex'>
     <div className='box-inner13'>
     <img src =""/>
@@ -50,7 +48,7 @@ function Cricket() {
     </div>
     </div>
      <Card5/>
-     <Card6/><br/>
+     <Card7/><br/>
      <div className='box-inner17'>
      <h2 className='head1'>Want A free Expert Consultancy? Call us Today</h2><br/>
      <div className='box-radius'><p className='head1'>Request A Quote</p></div><br/>
@@ -63,8 +61,9 @@ function Cricket() {
      <div className='cricket-img'><div style={{height:30,width:550,paddingTop:50,marginLeft:450}}><Slider1/></div></div> 
     
     <Footer/>
-     </div>
+    
+    </div>
   )
 }
 
-export default Cricket
+export default Football

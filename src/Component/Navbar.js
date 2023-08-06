@@ -20,7 +20,7 @@ function Navbar() {
            <div className='sub-nav-3'>
             <ul>
               <li > <Link to = "/cricket">Fantasy cricket software</Link></li>
-              <li>Fantasy Football App development</li>
+              <li> <Link to = "/football">Fantasy Football App development</Link></li>
               <li>Fantasy Soccer App deveopment</li>
             </ul>
            </div>
