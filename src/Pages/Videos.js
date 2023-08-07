@@ -9,7 +9,7 @@ function Videos() {
     <h6 style={{marginLeft:270,paddingTop:20}}>HOME VIDEOS</h6>
     </div>
     <div><h3 className='head' style={{color:'#0073AA'}}>VIDEOS</h3>
-    <video width="300" height="240" controls style={{marginLeft:200}}>
+    <video width="300" height="240" controls style={{marginLeft:100}}>
     <source src="https://www.netlink.com/wp-content/uploads/2022/09/Hi-Tech.mp4"   autoPlay loop muted type="video/mp4"/>
     <source src="https://www.netlink.com/wp-content/uploads/2022/09/Hi-Tech.mp4"   autoPlay loop muted type="video/ogg"/>
    
