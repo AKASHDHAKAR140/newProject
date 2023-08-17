@@ -31,8 +31,8 @@ function Navbar() {
           </div>
           </li>
           <li>Blockchain</li>
-          <li>web Designing</li>
-          <li>Health Care</li>
+          <li ><Link to = "/webdesign"> web design</Link></li>
+          <li><Link to = "/health">Health Care</Link></li>
           <li>Social Media</li>
           <li> Food Delivery</li>
           <li> eCommerce</li>

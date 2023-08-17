@@ -12,7 +12,8 @@ import Videos from './Pages/Videos';
 import StartAproject from './Pages/StartAproject';
 import Cricket from './Games/Cricket';
 import Football from './Games/Football';
-
+import Webdesign from './Games/Webdesign';
+import Healthcare from "./Games/Healthcare"
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,8 @@ function App() {
      <Routes>
     <Route path= "/cricket" element={<Cricket/>} />
     <Route path= "/football" element={<Football/>} />
+    <Route path= "/webdesign" element={<Webdesign/>} />
+    <Route path= "/health" element={<Healthcare/>} />
      <Route path= "/contact" element={<Contact/>}/>
      <Route path= "/blogs" element={<Blogs/>}/>
      <Route path= "/" element={<Portfolio/>}/>
