@@ -1,6 +1,7 @@
 import React from 'react'
 import {useFormik} from "formik"
 import { signUpSchema } from './Shcema'
+import axios from "axios"
 
 const initialValues ={
     firstname:"",
@@ -17,7 +18,8 @@ function Form1() {
         initialValues:initialValues,
         validationSchema:signUpSchema,
         onSubmit :(values, action)=>{
-           console.log(values)
+          axios.post("https://dummyjson.com/products/add",values)
+          .then(res=>console.log(res.data))
             action.resetForm()
         }
            

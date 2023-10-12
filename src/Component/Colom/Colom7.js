@@ -135,7 +135,7 @@ function Colom7() {
 </p>
 </div>
 <div class="col-md-3">
-<p><input type="submit" name="Submit" value="Submit" style={{marginTop:30, backgroundColor:'blue',  }}/>
+<p><input type="submit" name="Submit" value="Submit" style={{marginTop:30, backgroundColor:'aqua',  }}/>
 </p>
 </div>
 </div><div class="wpcf7-response-output" aria-hidden="true"></div>

@@ -5,7 +5,7 @@ import Card4 from '../Component/Cards/Card4'
 import Footer from '../Component/Footer'
 function DiscoveryAgnito() {
   return (
-    <div  >
+    <div>
     <div className ="image-5"></div>
     <div style={{backgroundColor:'whitesmoke'}}><Colom5/></div>
     <Card4/>

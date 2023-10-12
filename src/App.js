@@ -14,12 +14,13 @@ import Cricket from './Games/Cricket';
 import Football from './Games/Football';
 import Webdesign from './Games/Webdesign';
 import Healthcare from "./Games/Healthcare"
+import BlogsContent from './Pages/BlogsContent';
 function App() {
   return (
     <div className="App">
    
      <BrowserRouter>
-     <Navbar/>
+      <Navbar/>
      <Routes>
     <Route path= "/cricket" element={<Cricket/>} />
     <Route path= "/football" element={<Football/>} />
@@ -27,6 +28,7 @@ function App() {
     <Route path= "/health" element={<Healthcare/>} />
      <Route path= "/contact" element={<Contact/>}/>
      <Route path= "/blogs" element={<Blogs/>}/>
+     <Route path= "/blogs/:id" element={<BlogsContent/>}/>
      <Route path= "/" element={<Portfolio/>}/>
      <Route path= "/careers" element={<Careers/>}/>
      <Route path= "/discover" element={<DiscoveryAgnito/>}/>

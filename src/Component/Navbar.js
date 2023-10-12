@@ -5,7 +5,7 @@ function Navbar() {
 
   return (
 
-    <div className="nav-bar h4">
+    <div className="nav-bar h4 sticky-top">
     
     <img class="mk-sticky-logo " style={{height:50}} title="" alt=" aksh" src="https://agnitotechnologies.com/wp-content/uploads/2022/11/agnitotechnologies-logo.png"/>
     <ul>
